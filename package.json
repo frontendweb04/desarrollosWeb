@@ -1,0 +1,20 @@
+{
+  "name": "pagina_motel",
+  "version": "0.1.0",
+  "description": "Primera pagina web de moteles",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/frontendweb04/desarrollosWeb"
+  },
+  "keywords": [
+    "moteles",
+    "pagina",
+    "sexo"
+  ],
+  "author": "Cristian Gallego <cgallego202@gmail.com> (https://www.facebook.com/cristian.gallego.161)",
+  "license": "MIT"
+}
