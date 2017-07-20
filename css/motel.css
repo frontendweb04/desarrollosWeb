@@ -204,10 +204,7 @@ hr {
 	}
 
 
-.linea-terminos{
-	position: absolute;
-	top: -15px;
-}
+
 
 /*3. ESTILOS PARA LOS TERMINOS Y CONDICIONES*/
 
@@ -216,4 +213,7 @@ hr {
 	top: 5px;
 	margin-top: none;
 }
-/*4. ESTILOS PARA LOS TERMINOS Y CONDICIONES*/
+.linea-terminos{
+	position: absolute;
+	top: -15px;
+}

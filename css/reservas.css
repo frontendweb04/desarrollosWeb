@@ -1,0 +1,260 @@
+.incons {
+	 background-repeat: no-repeat;
+     position: absolute;
+    top: 10px;
+    right: 120px;
+    background-size: 100% auto;
+}
+/*2. ESTILOS PARA EL MENU HORIZONTAL*/
+
+.menu-principal{
+	width:110%;
+    background: #b7940d;
+    margin:-10px;
+
+}
+
+#logo_menu{
+position: relative;
+top: -8px;
+}
+
+.logo_menu{
+	position: relative;
+	top:-8px;
+}
+#boton-menu{
+display: none;
+}
+
+.menu li{
+	padding: 0px 20px;	
+}
+
+.menu-principal label{
+display: none;
+width: 25px; 
+height: 25px;
+padding: 10px;
+border-right:  : 1px solid #fff;
+
+}
+
+/*.menu-principal label:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+*/
+.menu ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	margin: 0;
+}
+
+
+.menu li:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+hr {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	height: 3px;
+	background-color: #b7940d ;
+}
+
+#espacio{
+	position: relative;
+	top: -220px;
+}
+
+@media (max-width: 800px) {
+
+
+	 .habitaciones{
+      width: 100%;
+  }
+
+
+ 	
+	.menu-principal label{
+		display: block;
+	}
+
+     
+      .menu{
+      	position: absolute;
+      	z-index: 1;
+      	background:#b7940d;
+      	width: 50%;
+      	margin-left:  -100%;
+      	transition: all 0.5s;
+      }
+
+      .menu-principal ul{
+      	flex-direction: column;
+      }
+
+      .menu-principal li{
+      	border-top: 1px solid #fff;
+      }
+
+      #boton-menu:checked ~ .menu {
+      	margin: 0;
+      }
+	}
+
+	/*3. ESTILOS PARA LOS TERMINOS Y CONDICIONES*/
+
+	.linea-terminos{
+	position: absolute;
+	top: 8px;
+}
+.terminos{
+	position: relative;
+	top: -80px;
+	margin-top: none;
+}
+
+/* 4. ESTILO COTIZACION*/
+
+.tipo {
+	position: absolute;
+	top:280px;
+	right: 775px;
+	font-size: 20px;
+	
+}
+.fecha{
+	position: absolute;
+	top: 380px;
+	right: 775px;
+	font-size: 20px;
+}
+
+.opciones {
+	border:1px solid #b7940d;
+	font-size: 25px;
+	font-family: Verdana;
+ 	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 3px;
+  	border-radius: 20px;
+
+}
+.tcal{
+	border:1px solid #b7940d;
+	font-size: 25px;
+	font-family: Verdana;
+ 	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 380px;
+}
+
+.hour{
+	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 400px;
+}
+.hora{
+	position: absolute;
+	top: 480px;
+	right: 775px;
+	font-size: 20px;
+
+}
+
+.tiempo{
+	position: absolute;
+	top: 580px;
+	right: 775px;
+	font-size: 20px;
+}
+
+.permanencia{
+	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 405px;
+}
+
+.decorar{
+	position: absolute;
+	top: 680px;
+	right: 775px;
+	font-size: 20px;
+}
+
+.elegir{
+	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 400px;
+  }
+
+  .reserva{
+  	border:1px solid black;
+  	margin: 80px;
+  	margin-top: 20px;
+  	width: 1130px;
+  	height: 550px;
+  }
+  	
+  .nombre{
+  	position: absolute;
+	top:280px;
+	right: 200px;
+	font-size: 20px;
+  }
+  .name{
+  	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 400px;
+  }
+  .correo{
+  	position: absolute;
+	top:380px;
+	right: 200px;
+	font-size: 20px;
+  }
+  .email{
+  	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 400px;
+  }

@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>HABITACIONES</title>
-	<link rel="stylesheet" href="css/Habitaciones.css">
-</head>
-<body background="imagenes/fondoPantalla.jpg" >
-<header id="header"> <!-- header o cabecera -->
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta charset= "UTF-8">
+	<title> Reservaciones</title>
 
+	<link href="calendario_dw/calendario_dw-estilos.css" type="text/css" rel="STYLESHEET">
+	<link href="css/reservas.css" rel="STYLESHEET">
+	<link rel="stylesheet" type="text/css" href="1-simple-calendar/tcal.css" />
+	<script type="text/javascript" src="1-simple-calendar/tcal.js"></script> 
+  <body background="imagenes/fondoPantalla.jpg" >
+
+	
+	
+</head>
 
 <header> <!-- header o cabecera -->
 
@@ -21,9 +27,9 @@
      	<a href="https://www.instagram.com/cgallego101/?hl=es" target="_blank"><img alt="Siguenos en Blogger" src="https://lh5.googleusercontent.com/-vBqtz2iv2BE/UIqE3LQyFMI/AAAAAAAABgA/TJ4W-vIBjsc/s32/instagram32.png" width=32 height=32  /></a>
 
      	<a href="http://twitter.com/CristiianG212" target="_blank"><img src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" width=32 height=32 alt="Síguenos en Twitter" /></a>
-     </section>
+     	</section>
 
-      <section class="menu-principal">  <!-- Menu horizontal -->
+    <section class="menu-principal">  <!-- Menu horizontal -->
      <input type="checkbox" id="boton-menu">
      <label for="boton-menu"><img id="logo_menu" src="imagenes/logo menu.png" width="25" height="25"> </label>
          <nav class="menu" >
@@ -38,34 +44,50 @@
         </nav>
        </section>
 
-       <section class="habitaciones"> <!-- imagenes de las habitaciones -->
-         <div id="sencilla">
-         <h2 id="texto_sencilla">SENCILLA</h2>
-         <a href="sencilla.html"> <img src="imagenes/habitaciones/sencilla.jpg"></a>
-         <a id="boton_ver_sencilla" href="sencilla.html">Informacion</a>
-         </div>
-         <div id="suite">
-         	<h2 id="texto_suite"> SUITE</h2>
-         	<a href="suite.html"> <img src="imagenes/habitaciones/suite.jpg"></a>
-         	<a id="boton_ver_suite" href="sencilla.html">Informacion</a>
-         </div>
-         <div id="presidencial">
-         	<h2 id="texto_presindencial"> PRESIDENCIAL</h2>
-         	<a href="suite.html"> <img src="imagenes/habitaciones/pesidencial.jpg"></a>
-         	<a id="boton_ver_presidencial" href="sencilla.html">Informacion</a>
-         </div>
-         <div id="super_presidencial">
-         	<h2 id="texto_super_presidencial"> SUPER PRESIDENCIAL</h2>
-         	<a href="suite.html"> <img src="imagenes/habitaciones/super presidencial .jpg"></a>
-         	<a id="boton_ver_super" href="sencilla.html">Informacion</a>
-         </div>
+       <section class="reserva"><!--  Reservaciones -->
+       		<label class ="tipo"><em>Tipo de habitación</em> <br><br>
+            <select class="opciones" style="width: 405px">
+       			<small>
+       			<option> SUITE </option>
+       			<option> SENCILLA </option>
+       			<option> PRESIDENCIAL </option>
+       			<option> SUPER PRESIDENCIAL </option>
+            </small>
+       	</select></label><br>
+
+       		<label class="fecha"><em>Fecha de reservación</em> <br><br><input type="text" name="date" class="tcal" value="" /></label>
+
+          <label class="hora"> <em>Hora estimada de llegada</em><br><br><input type="time" name="hora" class="hour" value=""></label>
+
+          <label class="tiempo"><em> Tiempo de permanencia</em> <br><br>
+            <select class="permanencia" >
+              <option> 2 HORAS</option>
+              <option> 3 HORAS</option>
+              <option> 4 HORAS</option>
+              <option> AMANECIDA</option>
+              </select></label><br><br>
+
+          <label class="decorar"><em>¿Desea alguna decoración? </em><br><br>
+            <select class="elegir" >
+              
+              <option> NO</option>
+              <option> AMOR Y AMISTAD </option>
+              <option> SEX SHOP </option>
+              <option> CÓCTEL </option>
+            </select></label>
+
+          <label class="nombre"><em> Nombre </em><br><br> <input type="text" name="name" class="name">
+           </label><br>
+
+           <label class="correo"><em> Emails</em><br><br> <input type="email" name="emails" class="email"></label><br>
+ 
        </section>
 
-      <section class="terminos"> <!-- Terminos y Condiciones -->
-	<hr class="linea-terminos">
+       <section class="terminos"><!--  Terminos y Condiciones --> 
+	<hr class="linea-terminos"><br>
 
 	<h4 align="center" >
- 		<em class="terminos" >
+ 		<em>
  		Los precios de las habitaciones varían de acuerdo a tus necesidades, todas las habitaciones son por 3 horas,<br>
  		también ofrecemos servicio de decoración y para este servicio debes llamar con anticipación al siguiente <br>
  		número (6) 332 9200, pues allí te comunicaras con las personas encargadas de esta área y te darán una mejor asesoría.<br>
@@ -81,11 +103,11 @@
 	</article>
 
 	<h4 align="center">
-		<em> (+57) 317-247-9095    -    (+57) 314-727-7584 </em><br>
-		<em> frontendweb04@gmail.com  /   km 4 via Armenia</em><br>
-		<em> Pereira, Colombia</em><br><br><br>
+		<em> (+57) 317-247-9095    -    (+57) 314-727-7584 <br>
+		   frontendweb04@gmail.com  /   km 4 via Armenia<br>
+		    Pereira, Colombia</em><br>
 	</h4>
+	</section>
+<body>
+	
 </body>
-</html>
-
-
