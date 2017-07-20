@@ -10,4 +10,76 @@
         margin: 0;
         padding: 0;
       }
+
+      .informacion{
+      	padding: 20px;
+
+
+      }
+
+      .infor{
+      	position: relative;
+      	top: -300px;
+      	right: -850px;
+
+
+      }
+
+   .name{
+  	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 400px;
+  }
+
+  .correo{
+  	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 400px;
+  }
+  .celu{
+  	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 400px;
+  }
+  .mensaje{
+  	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	height: 200px;
+  	width: 600px;
+  }
+  
+  .enviar {
+    position: absolute;
+  	border: 1px solid #b7940d;
+	font-size: 22px;
+	font-family: Verdana;
+	padding-left: 2px;
+  	padding-right: 2px;
+  	padding-top: 4px;
+  	border-radius: 20px;
+  	width: 200px;
+    top: 1150px;
+    right: 1120px;
+
+  }
    

@@ -6,12 +6,12 @@
 	<title> Reservaciones</title>
 
 	<link href="calendario_dw/calendario_dw-estilos.css" type="text/css" rel="STYLESHEET">
-	<link href="css/reservas.css" rel="STYLESHEET">
+  <!-- <link href="index.html" rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/reservas.css">
+	<link href="css/motel.css" rel="STYLESHEET">
 	<link rel="stylesheet" type="text/css" href="1-simple-calendar/tcal.css" />
 	<script type="text/javascript" src="1-simple-calendar/tcal.js"></script> 
-  <body background="imagenes/fondoPantalla.jpg" >
-
-	
+  <body background="imagenes/fondoPantalla.jpg" >	
 	
 </head>
 
@@ -59,12 +59,12 @@
 
           <label class="hora"> <em>Hora estimada de llegada</em><br><br><input type="time" name="hora" class="hour" value=""></label>
 
-          <label class="tiempo"><em> Tiempo de permanencia</em> <br><br>
+          <label class="tiempo"><em> Tiempo extra</em> <br><br>
             <select class="permanencia" >
+             <option> NO</option>
+              <option> 1 HORA </option>
               <option> 2 HORAS</option>
-              <option> 3 HORAS</option>
-              <option> 4 HORAS</option>
-              <option> AMANECIDA</option>
+              <option> 3 HORAS</option>  
               </select></label><br><br>
 
           <label class="decorar"><em>¿Desea alguna decoración? </em><br><br>
@@ -74,12 +74,20 @@
               <option> AMOR Y AMISTAD </option>
               <option> SEX SHOP </option>
               <option> CÓCTEL </option>
+              <option> CUMPLEAÑOS</option>
+              <option> ANIVERSARIO </option>
             </select></label>
 
-          <label class="nombre"><em> Nombre </em><br><br> <input type="text" name="name" class="name">
+          <label class="nombre"><em> Nombre(*)</em><br><br> <input type="text" name="name" class="name">
            </label><br>
 
-           <label class="correo"><em> Emails</em><br><br> <input type="email" name="emails" class="email"></label><br>
+           <label class="correo"><em> Emails(*)</em><br><br> <input type="email" name="emails" class="email"></label><br>
+
+           <label class="document"><em> Cédula(*)</em><br><br><input type="text" name="cedula" class="cedula"> </label><br>
+
+          <input type="submit" name="reservar" class="reservar" value="RESERVAR"> 
+          <label class="text"><em>Llene los campos de acuerdo a lo que<br><br>buscas.</em></label>
+          <label class="text2"><em>Información de contacto</em><br><br>Los campos con (*) son obligatorios. </label>
  
        </section>
 
