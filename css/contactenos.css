@@ -18,9 +18,9 @@
       }
 
       .infor{
-      	position: relative;
-      	top: -300px;
-      	right: -850px;
+      	position: absolute;
+      	top: 850px;
+      	right: 150px;
 
 
       }
