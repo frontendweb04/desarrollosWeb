@@ -11,16 +11,16 @@
 }
 
 .image{
-	position: relative;
-	top:-490px;
+	position: absolute;
+	top: 550px;
 	right: 50px;
 	margin:1px solid black;
 	width: 600px;
 }
 .img{
 	position: relative;
-	top:-40px;
-	right: -98px;
+	top:-195px;
+	right: -92px;
 	width: 600px;
 }
 
@@ -34,7 +34,7 @@
 }
 .textonosotros{
 	position: relative;
-	top: 100px;
+	top: 20px;
 	right: -100px;
 
 }
@@ -47,6 +47,6 @@
 }
 .texto{
 	position: relative;
-	top: 250px;
-	right: -750px;
+	top: 95px;
+	right: -740px;
 }
