@@ -10,64 +10,76 @@ body{
 .tipo {
 	position: absolute;
 	top:400px;
-	right: 775px;
+	right: 1005px;
 	font-size: 20px;
 	
 }
 .fecha{
 	position: absolute;
-	top: 500px;
-	right: 775px;
+	top: 480px;
+	right: 980px;
 	font-size: 20px;
 }
 
 .opciones {
+	position: absolute;
+  	top: 430px;
+  	right: 755px;
 	border:1px solid #b7940d;
-	font-size: 25px;
+	font-size: 20px;
 	font-family: Verdana;
- 	padding-left: 2px;
-  	padding-right: 2px;
-  	padding-top: 3px;
+ 	padding-left: 5px;
+  	padding-right: 3px;
+  	padding-top: 4px;
   	border-radius: 20px;
 
 }
 .tcal{
+	position: absolute;
+  	top: 510px;
+  	right: 755px;
 	border:1px solid #b7940d;
 	font-size: 25px;
 	font-family: Verdana;
  	padding-left: 2px;
   	padding-right: 2px;
-  	padding-top: 4px;
+  	padding-top: 2px;
   	border-radius: 20px;
   	width: 380px;
 }
 
 .hour{
+	position: absolute;
+  	top: 600px;
+  	right: 755px;
 	border: 1px solid #b7940d;
 	font-size: 22px;
 	font-family: Verdana;
 	padding-left: 2px;
-  	padding-right: 2px;
-  	padding-top: 4px;
+  	padding-right: 1px;
+  	padding-top: 1px;
   	border-radius: 20px;
   	width: 400px;
 }
 .hora{
 	position: absolute;
-	top: 600px;
-	right: 775px;
+	top: 570px;
+	right: 945px;
 	font-size: 20px;
 
 }
 
 .tiempo{
 	position: absolute;
-	top: 700px;
-	right: 775px;
+	top: 670px;
+	right: 1045px;
 	font-size: 20px;
 }
 
 .permanencia{
+	position: absolute;
+  	top: 700px;
+  	right: 755px;
 	border: 1px solid #b7940d;
 	font-size: 22px;
 	font-family: Verdana;
@@ -80,12 +92,15 @@ body{
 
 .decorar{
 	position: absolute;
-	top: 800px;
-	right: 775px;
+	top: 770px;
+	right: 925px;
 	font-size: 20px;
 }
 
 .elegir{
+	position: absolute;
+  	top: 800px;
+  	right: 755px;
 	border: 1px solid #b7940d;
 	font-size: 20px;
 	font-family: Verdana;
@@ -107,10 +122,13 @@ body{
   .nombre{
   	position: absolute;
 	top:400px;
-	right: 200px;
+	right: 510px;
 	font-size: 20px;
   }
   .name{
+  	position: absolute;
+  	top: 430px;
+  	right: 200px;
   	border: 1px solid #b7940d;
 	font-size: 22px;
 	font-family: Verdana;
@@ -122,11 +140,14 @@ body{
   }
   .correo{
   	position: absolute;
-	top:500px;
-	right: 200px;
+	top:480px;
+	right: 525px;
 	font-size: 20px;
   }
   .email{
+  	position: absolute;
+  	top: 510px;
+  	right: 200px;
   	border: 1px solid #b7940d;
 	font-size: 22px;
 	font-family: Verdana;
@@ -137,14 +158,17 @@ body{
   	width: 400px;
   }
 
-  .document{
+  .documento{
  	position: absolute;
-	top:600px;
-	right: 200px;
+	top:570px;
+	right: 523px;
 	font-size: 20px;
  	}
 
   .cedula{
+  	position: absolute;
+  	top: 600px;
+  	right: 200px;
  	border: 1px solid #b7940d;
 	font-size: 22px;
 	font-family: Verdana;
@@ -159,7 +183,7 @@ body{
  		position: absolute;
  		font-family: Verdana;
  		font-size: 18px;
- 		top: 780px;
+ 		top: 790px;
  		right: 320px;
  		border:1px solid #b7940d;
   		border-radius: 20px;
@@ -169,7 +193,7 @@ body{
  	.text{
  		position: absolute;
  		top: 300px;
- 		right: 790px;
+ 		right: 770px;
  		font-size: 25px;
  		font-style: oblique;
  		font-weight: bold;

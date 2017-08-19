@@ -44,30 +44,32 @@
         </nav>
        </section>
 
+       <form action="reserva.php" method="POST">
+
        <section class="reserva"><!--  Reservaciones -->
-       		<label class ="tipo"><em>Tipo de habitación</em> <br><br>
+       		<label class="tipo"><em>Tipo de habitación</em><br><br></label>
             <select class="opciones" style="width: 405px">
-       			<small>
        			<option> SUITE </option>
        			<option> SENCILLA </option>
        			<option> PRESIDENCIAL </option>
        			<option> SUPER PRESIDENCIAL </option>
-            </small>
-       	</select></label><br>
+       	</select><br>
 
-       		<label class="fecha"><em>Fecha de reservación</em> <br><br><input type="text" name="date" class="tcal" value="" /></label>
+       		<label class="fecha"><em>Fecha de reservación</em><br><br></label> 
+          <input type="text" name="date" class="tcal" value="" /><br>
 
-          <label class="hora"> <em>Hora estimada de llegada</em><br><br><input type="time" name="hora" class="hour" value=""></label>
+          <label class="hora"><em>Hora estimada de llegada</em><br><br></label> 
+          <input type="time" name="hora" class="hour" value=""><br>
 
-          <label class="tiempo"><em> Tiempo extra</em> <br><br>
+         <label class="tiempo"> <em> Tiempo extra</em> <br><br></label>
             <select class="permanencia" >
              <option> NO</option>
               <option> 1 HORA </option>
               <option> 2 HORAS</option>
               <option> 3 HORAS</option>  
-              </select></label><br><br>
+              </select><br><br>
 
-          <label class="decorar"><em>¿Desea alguna decoración? </em><br><br>
+          <label class="decorar"><em>¿Desea alguna decoración? </em><br><br></label>
             <select class="elegir" >
               
               <option> NO</option>
@@ -76,20 +78,24 @@
               <option> CÓCTEL </option>
               <option> CUMPLEAÑOS</option>
               <option> ANIVERSARIO </option>
-            </select></label>
+            </select><br>
 
-          <label class="nombre"><em> Nombre(*)</em><br><br> <input type="text" name="name" class="name">
-           </label><br>
+          <label class=nombre ><em> Nombre(*) </em><br><br></label>
+          <input type="text" name="nombre" class="name"><br>
 
-           <label class="correo"><em> Emails(*)</em><br><br> <input type="email" name="emails" class="email"></label><br>
+          <label class="correo"><em> Emails(*)</em><br><br></label>
+          <input type="email" name="email" class="email"><br>
 
-           <label class="document"><em> Cédula(*)</em><br><br><input type="text" name="cedula" class="cedula"> </label><br>
+          <label class="documento"> <em> Cédula(*)</em><br><br></label> 
+          <input type="text" name="cedula" class="cedula"><br>
 
           <input type="submit" name="reservar" class="reservar" value="RESERVAR"> 
           <label class="text"><em>Llene los campos de acuerdo a lo que<br><br>buscas.</em></label>
           <label class="text2"><em>Información de contacto</em><br><br>Los campos con (*) son obligatorios. </label>
  
         </section>
+
+        </form>
 
        <section class="terminos"><!--  Terminos y Condiciones --> 
 	<hr class="linea-terminos"><br>
