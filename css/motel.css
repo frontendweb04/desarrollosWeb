@@ -2,6 +2,19 @@
 
 /*1. ESTILOS PARA EL ENCABEZADO*/
 
+.calificar{
+position: absolute;
+    top: 150px;
+    right: 20px;    
+    background-color: #b7940d;
+    color: white;
+    font-size: 19px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    width: 200px;
+}
+
 .incons {
 	 background-repeat: no-repeat;
   position: absolute;
